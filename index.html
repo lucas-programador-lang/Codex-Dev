@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex Dev | Engenharia de Software</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Lora:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    
+    <nav class="navbar section-reveal">
+        <div class="nav-content">
+            <div class="logo">CODEX<span>.dev</span></div>
+            <div class="search-bar">
+                <i data-lucide="search"></i>
+                <input type="text" placeholder="Buscar tutoriais...">
+            </div>
+            <div class="nav-links">
+                <a href="#artigos">Artigos</a>
+                <a href="https://github.com" target="_blank" class="github-btn"><i data-lucide="github"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="blog-header section-reveal">
+            <span class="category">Engenharia e Arquitetura</span>
+            <h1>Diário de Bordo Técnico</h1>
+            <p>Compartilhando experiências sobre Kotlin, Node.js e automações de alto impacto.</p>
+        </header>
+
+        <section id="artigos" class="article-grid">
+            
+            <article class="article-card section-reveal">
+                <div class="card-meta">
+                    <span class="tech Kotlin">Kotlin</span>
+                    <span class="date">Maio 2026</span>
+                </div>
+                <h2>Otimizando Performance em Apps Kotlin com Jetpack Compose</h2>
+                <p>Estratégias avançadas para garantir 60 FPS e reduzir consumo de bateria em interfaces complexas.</p>
+                <a href="#artigo-completo" class="read-more">Ler Mais <i data-lucide="arrow-right"></i></a>
+            </article>
+
+            <article class="article-card section-reveal">
+                <div class="card-meta">
+                    <span class="tech Node">Node.js</span>
+                    <span class="date">Abril 2026</span>
+                </div>
+                <h2>Escalando APIs de WhatsApp com Filas e Micro-serviços</h2>
+                <p>Como lidar com milhares de mensagens simultâneas usando Redis e arquitetura event-driven.</p>
+                <a href="#artigo-completo" class="read-more">Ler Mais <i data-lucide="arrow-right"></i></a>
+            </article>
+
+            <article class="article-card section-reveal">
+                <div class="card-meta">
+                    <span class="tech Database">Database</span>
+                    <span class="date">Março 2026</span>
+                </div>
+                <h2>Estratégias de Cache para Dados Financeiros em Tempo Real</h2>
+                <p>Utilizando Redis para acelerar consultas de CDI e histórico de ROI sem sobrecarregar o banco principal.</p>
+                <a href="#artigo-completo" class="read-more">Ler Mais <i data-lucide="arrow-right"></i></a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Built by Jose Lucas &copy; 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
